@@ -2,12 +2,15 @@ package heranca;
 
 public class Gato extends Animal {
 
-
     boolean vacinado;
 
-    void miar() {
-        System.out.println("Miauuuuuuuuuuu");
+    Gato() {
+        super("bob");
     }
+
+   void miar() {
+       System.out.println("Miauuuuuuuu");
+   }
 
     @Override
     void fazBarulho() {

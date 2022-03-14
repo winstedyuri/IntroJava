@@ -1,13 +1,17 @@
 package heranca;
 
-public class Animal {
+public abstract class Animal {
 
     int patas;
     String raca;
     int idade;
     Sexo sexo;
+    String nome;
 
-    void fazBarulho() {
-        System.out.println("Barulho");
+    Animal(String nome) {
+        this.nome = nome;
     }
+
+    abstract void fazBarulho();
+
 }
