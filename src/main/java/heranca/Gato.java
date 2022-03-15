@@ -1,6 +1,6 @@
 package heranca;
 
-public class Gato extends Animal {
+public class Gato extends Felino {
 
     boolean vacinado;
 
